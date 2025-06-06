@@ -1,3 +1,5 @@
+https://code2tutorial.com/tutorial/ebefdddd-cd29-455b-9dae-d9799137de22/01_parking_mask_input_.md
+
 This project is focused on parking spot detection and tracking using computer vision techniques. It utilizes OpenCV to process video frames from a parking lot to detect and monitor the status of parking spots. Initially, a mask image is used to identify the parking spot boundaries, and the connected components in the mask are analyzed using connectedComponentsWithStats to extract the bounding boxes of individual parking spots. 
 ![Screenshot (21)](https://github.com/user-attachments/assets/1f686453-c36a-47c3-8cd6-da8a88b68602)
  These bounding boxes are used to crop the video frames, where differences in pixel intensity are calculated between consecutive frames to detect changes, which helps in determining if a parking spot is empty or occupied. The status of each parking spot is updated dynamically by comparing the current frame with the previous frame and is displayed in real-time on the video feed.
